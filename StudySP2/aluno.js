@@ -4363,6 +4363,19 @@ async function carregarQuestoesDoServidor() {
     }
 }
 
+async function carregarConteudosDoServidorInicial() {
+    try {
+        if (window.API && typeof window.API.buscarConteudos === 'function') {
+            const conteudosServidor = await window.API.buscarConteudos();
+            if (Array.isArray(conteudosServidor) && conteudosServidor.length > 0) {
+                localStorage.setItem('bd_conteudos', JSON.stringify(conteudosServidor));
+            }
+        }
+    } catch (err) {
+        console.warn('[StudySP] Conteúdos do servidor indisponíveis na inicialização:', err);
+    }
+}
+
 // Inicialização Final (Roda ao carregar a página)
 carregarDadosPerfil(); 
 carregarRank(); 
@@ -4376,3 +4389,4 @@ if (document.getElementById('containerQuestoesDinamicas') && document.getElement
 }
 sincronizarComServidor();
 carregarQuestoesDoServidor();
+carregarConteudosDoServidorInicial();

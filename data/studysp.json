@@ -1,0 +1,799 @@
+{
+  "usuarios": [
+    {
+      "rm": "1001",
+      "nome": "Prof. Marcos Andrade",
+      "email": "marcos.andrade@escola.sp.gov.br",
+      "senha": "123",
+      "perfil": "Professor",
+      "materiaPrincipal": "Matemática & Física",
+      "cidade": "São Paulo - SP",
+      "endereco": "Av. Paulista, 1200",
+      "telefone": "(11) 98765-4321",
+      "idade": "42",
+      "bio": "Licenciado e Mestre em Matemática pela USP. Apaixonado por preparar estudantes para o Provão Paulista e vestibulares de alta concorrência.",
+      "foto": null,
+      "pontos": 0,
+      "sequencia": 15,
+      "tempoEstudadoSegundos": 0,
+      "multiplicador": 1,
+      "totalQuestoes": 0,
+      "totalAcertos": 0,
+      "mensagensTCC": 0,
+      "mensagensTCCHoje": 0,
+      "conquistas": [],
+      "criadoEm": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "rm": "1002",
+      "nome": "Profa. Helena Vasconcelos",
+      "email": "helena.vasconcelos@escola.sp.gov.br",
+      "senha": "123",
+      "perfil": "Professor",
+      "materiaPrincipal": "Língua Portuguesa & Redação",
+      "cidade": "Campinas - SP",
+      "endereco": "Rua Barão de Jaguara, 450",
+      "telefone": "(19) 99123-8877",
+      "idade": "38",
+      "bio": "Doutora em Letras e Linguística Aplicada pela Unicamp. Corretora oficial e especialista na estrutura dissertativa-argumentativa da VUNESP.",
+      "foto": null,
+      "pontos": 0,
+      "sequencia": 22,
+      "tempoEstudadoSegundos": 0,
+      "multiplicador": 1,
+      "totalQuestoes": 0,
+      "totalAcertos": 0,
+      "mensagensTCC": 0,
+      "mensagensTCCHoje": 0,
+      "conquistas": [],
+      "criadoEm": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "rm": "1003",
+      "nome": "Prof. Carlos Eduardo Silveira",
+      "email": "carlos.silveira@escola.sp.gov.br",
+      "senha": "123",
+      "perfil": "Professor",
+      "materiaPrincipal": "História, Filosofia & Sociologia",
+      "cidade": "Ribeirão Preto - SP",
+      "endereco": "Rua Álvares Cabral, 89",
+      "telefone": "(16) 98844-3322",
+      "idade": "45",
+      "bio": "Pesquisador de História Contemporânea e Humanidades. Focado em pensamento crítico, cidadania e questões interdisciplinares do Provão Paulista.",
+      "foto": null,
+      "pontos": 0,
+      "sequencia": 18,
+      "tempoEstudadoSegundos": 0,
+      "multiplicador": 1,
+      "totalQuestoes": 0,
+      "totalAcertos": 0,
+      "mensagensTCC": 0,
+      "mensagensTCCHoje": 0,
+      "conquistas": [],
+      "criadoEm": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "rm": "1004",
+      "nome": "Profa. Juliana Rossi",
+      "email": "juliana.rossi@escola.sp.gov.br",
+      "senha": "123",
+      "perfil": "Professor",
+      "materiaPrincipal": "Biologia & Química",
+      "cidade": "Santos - SP",
+      "endereco": "Av. Ana Costa, 310",
+      "telefone": "(13) 99755-1290",
+      "idade": "35",
+      "bio": "Bióloga com ênfase em Biotecnologia e Ecologia pela UNESP. Adoro descomplicar genética, reações químicas e sustentabilidade para os estudantes.",
+      "foto": null,
+      "pontos": 0,
+      "sequencia": 12,
+      "tempoEstudadoSegundos": 0,
+      "multiplicador": 1,
+      "totalQuestoes": 0,
+      "totalAcertos": 0,
+      "mensagensTCC": 0,
+      "mensagensTCCHoje": 0,
+      "conquistas": [],
+      "criadoEm": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "rm": "1005",
+      "nome": "Prof. Diego Morales",
+      "email": "diego.morales@escola.sp.gov.br",
+      "senha": "123",
+      "perfil": "Professor",
+      "materiaPrincipal": "Inglês & Geografia",
+      "cidade": "São José dos Campos - SP",
+      "endereco": "Av. Nove de Julho, 500",
+      "telefone": "(12) 99611-7733",
+      "idade": "33",
+      "bio": "Especialista em Geopolítica Global e proficiência em Língua Inglesa. Preparador com foco em interpretação de gráficos, charges e textos autênticos.",
+      "foto": null,
+      "pontos": 0,
+      "sequencia": 10,
+      "tempoEstudadoSegundos": 0,
+      "multiplicador": 1,
+      "totalQuestoes": 0,
+      "totalAcertos": 0,
+      "mensagensTCC": 0,
+      "mensagensTCCHoje": 0,
+      "conquistas": [],
+      "criadoEm": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "rm": "2001",
+      "nome": "Beatriz Lima",
+      "email": "beatriz.lima@aluno.sp.gov.br",
+      "senha": "123",
+      "perfil": "Aluno",
+      "cidade": "São Paulo - SP",
+      "endereco": "Bairro Tatuapé",
+      "telefone": "(11) 97123-4567",
+      "idade": "17",
+      "bio": "Estudante do 3º ano do Ensino Médio. Focada em conquistar vaga em Engenharia de Computação na USP pelo Provão Paulista! 🚀",
+      "foto": null,
+      "pontos": 940.5,
+      "sequencia": 14,
+      "tempoEstudadoSegundos": 32400,
+      "multiplicador": 1.5,
+      "totalQuestoes": 98,
+      "totalAcertos": 89,
+      "mensagensTCC": 28,
+      "mensagensTCCHoje": 4,
+      "curso": "Desenvolvimento de Sistemas",
+      "temaTCC": "Aplicativo acessível para estudantes neurodivergentes com rotinas visuais",
+      "conquistas": [
+        "pomodoro_iniciante",
+        "simulado_iniciante",
+        "tcc_orientacao",
+        "ofensiva_3dias",
+        "pomodoro_1hora",
+        "simulado_ouro"
+      ],
+      "criadoEm": "2026-03-05T14:30:00.000Z"
+    },
+    {
+      "rm": "2002",
+      "nome": "Gabriel Santos",
+      "email": "gabriel.santos@aluno.sp.gov.br",
+      "senha": "123",
+      "perfil": "Aluno",
+      "cidade": "Campinas - SP",
+      "endereco": "Bairro Taquaral",
+      "telefone": "(19) 98234-5678",
+      "idade": "17",
+      "bio": "Apaixonado por biologia marinha e sustentabilidade. Meta: Biologia na UNICAMP!",
+      "foto": null,
+      "pontos": 820,
+      "sequencia": 11,
+      "tempoEstudadoSegundos": 27000,
+      "multiplicador": 1.4,
+      "totalQuestoes": 85,
+      "totalAcertos": 74,
+      "mensagensTCC": 19,
+      "mensagensTCCHoje": 2,
+      "curso": "Biotecnologia",
+      "temaTCC": "Biofiltro de baixo custo para tratamento de água em hortas comunitárias",
+      "conquistas": [
+        "pomodoro_iniciante",
+        "simulado_iniciante",
+        "tcc_orientacao",
+        "ofensiva_3dias",
+        "pomodoro_1hora",
+        "simulado_ouro"
+      ],
+      "criadoEm": "2026-03-06T09:15:00.000Z"
+    },
+    {
+      "rm": "2003",
+      "nome": "Mariana Souza",
+      "email": "mariana.souza@aluno.sp.gov.br",
+      "senha": "123",
+      "perfil": "Aluno",
+      "cidade": "Santos - SP",
+      "endereco": "Bairro Gonzaga",
+      "telefone": "(13) 99345-6789",
+      "idade": "16",
+      "bio": "Estudando todos os dias com o método Pomodoro. Rumo ao curso de Direito!",
+      "foto": null,
+      "pontos": 745,
+      "sequencia": 9,
+      "tempoEstudadoSegundos": 21600,
+      "multiplicador": 1.3,
+      "totalQuestoes": 72,
+      "totalAcertos": 63,
+      "mensagensTCC": 14,
+      "mensagensTCCHoje": 3,
+      "curso": "Serviços Jurídicos",
+      "temaTCC": "Proteção de dados digitais de jovens e adolescentes conforme a LGPD",
+      "conquistas": [
+        "pomodoro_iniciante",
+        "simulado_iniciante",
+        "tcc_orientacao",
+        "ofensiva_3dias",
+        "pomodoro_1hora"
+      ],
+      "criadoEm": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "rm": "2004",
+      "nome": "Lucas Ferreira",
+      "email": "lucas.ferreira@aluno.sp.gov.br",
+      "senha": "123",
+      "perfil": "Aluno",
+      "cidade": "Ribeirão Preto - SP",
+      "endereco": "Jardim Irajá",
+      "telefone": "(16) 98456-7890",
+      "idade": "18",
+      "bio": "Futuro médico veterinário. A cada simulado um passo mais perto da faculdade dos sonhos.",
+      "foto": null,
+      "pontos": 680,
+      "sequencia": 7,
+      "tempoEstudadoSegundos": 18000,
+      "multiplicador": 1.2,
+      "totalQuestoes": 65,
+      "totalAcertos": 54,
+      "mensagensTCC": 10,
+      "mensagensTCCHoje": 0,
+      "curso": "Veterinária",
+      "temaTCC": "Protocolos de vacinação e bem-estar de animais de abrigo",
+      "conquistas": [
+        "pomodoro_iniciante",
+        "simulado_iniciante",
+        "tcc_orientacao",
+        "ofensiva_3dias",
+        "pomodoro_1hora"
+      ],
+      "criadoEm": "2026-03-08T16:20:00.000Z"
+    },
+    {
+      "rm": "2005",
+      "nome": "Larissa Menezes",
+      "email": "larissa.menezes@aluno.sp.gov.br",
+      "senha": "123",
+      "perfil": "Aluno",
+      "cidade": "São José dos Campos - SP",
+      "endereco": "Vila Adyana",
+      "telefone": "(12) 99567-8901",
+      "idade": "17",
+      "bio": "Amante da literatura e de redação nota máxima! Dando o meu melhor todos os dias.",
+      "foto": null,
+      "pontos": 590,
+      "sequencia": 6,
+      "tempoEstudadoSegundos": 14400,
+      "multiplicador": 1.2,
+      "totalQuestoes": 55,
+      "totalAcertos": 47,
+      "mensagensTCC": 8,
+      "mensagensTCCHoje": 1,
+      "curso": "Administração",
+      "temaTCC": "Estratégias de economia circular em microempresas do Vale do Paraíba",
+      "conquistas": [
+        "pomodoro_iniciante",
+        "simulado_iniciante",
+        "tcc_orientacao",
+        "ofensiva_3dias"
+      ],
+      "criadoEm": "2026-03-09T08:45:00.000Z"
+    },
+    {
+      "rm": "2006",
+      "nome": "Felipe Eduardo (Demo)",
+      "email": "felipe.aluno@studysp.com.br",
+      "senha": "123",
+      "perfil": "Aluno",
+      "cidade": "São Paulo - SP",
+      "endereco": "Consolação, Centro",
+      "telefone": "(11) 99887-1122",
+      "idade": "17",
+      "bio": "Perfil demonstrativo principal do aluno StudySP. Pronto para resolver simulados e organizar o TCC!",
+      "foto": null,
+      "pontos": 520,
+      "sequencia": 5,
+      "tempoEstudadoSegundos": 12000,
+      "multiplicador": 1.1,
+      "totalQuestoes": 45,
+      "totalAcertos": 39,
+      "mensagensTCC": 12,
+      "mensagensTCCHoje": 2,
+      "curso": "Desenvolvimento de Sistemas",
+      "temaTCC": "Plataforma de estudos colaborativa com inteligência artificial para o Provão Paulista",
+      "conquistas": [
+        "pomodoro_iniciante",
+        "simulado_iniciante",
+        "tcc_orientacao",
+        "ofensiva_3dias"
+      ],
+      "criadoEm": "2026-03-10T10:00:00.000Z"
+    }
+  ],
+  "conteudos": [
+    {
+      "id": "aula_port_01",
+      "ordem": 1,
+      "materia": "Português",
+      "titulo": "Figuras de Linguagem e Recursos Estilísticos na Literatura",
+      "texto": "Nesta aula abordamos as principais figuras cobradas no Provão Paulista:\n\n1. Metáfora e Comparação explícita\n2. Metonímia (a parte pelo todo)\n3. Antítese vs. Paradoxo\n4. Ironia e Hipérbole\n\nFique atento aos poemas do Modernismo brasileiro e do Romantismo onde essas figuras são cobradas para interpretar o efeito de sentido gerado no leitor.",
+      "profNome": "Profa. Helena Vasconcelos",
+      "profRM": "1002",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🔗 Guia Completo VUNESP - Figuras de Linguagem",
+          "url": "https://vestibular.unesp.br"
+        },
+        {
+          "texto": "📚 Resumo Gramatical no Portal Brasil Escola",
+          "url": "https://brasilescola.uol.com.br/gramatica/figuras-linguagem.htm"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=k4u0b5bU86U"
+      ]
+    },
+    {
+      "id": "aula_port_02",
+      "ordem": 2,
+      "materia": "Português",
+      "titulo": "Concordância Verbal e Nominal nos Casos Especiais",
+      "texto": "Revise com atenção as regras dos termos que mais causam dúvidas nas provas:\n- Sujeito composto posposto ao verbo\n- Expressões partitivas ('a maioria de', 'grande parte de')\n- Pronome apassivador 'se' (Alugam-se casas vs. Precisa-se de atendentes)\n- Palavras como 'anexo', 'mesmo', 'bastante' e 'meio'.",
+      "profNome": "Profa. Helena Vasconcelos",
+      "profRM": "1002",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🔗 Exercícios de Fixação Vunesp",
+          "url": "https://www.todamateria.com.br/concordancia-verbal/"
+        }
+      ],
+      "arquivos": [],
+      "videos": []
+    },
+    {
+      "id": "aula_ing_01",
+      "ordem": 1,
+      "materia": "Inglês",
+      "titulo": "Técnicas de Skimming, Scanning e Falsos Cognatos",
+      "texto": "Para garantir 100% de aproveitamento em Inglês no Provão Paulista:\n\n- Skimming: Leitura rápida e panorâmica para compreender o tema geral, layout e objetivo do autor.\n- Scanning: Busca direta de palavras-chave, datas, números ou perguntas pontuais.\n- Cuidado com False Friends (Falsos Cognatos): 'actually' (na verdade), 'pretend' (fingir), 'attend' (comparecer), 'push' (empurrar).\n\nA prova costuma usar tirinhas (Calvin & Hobbes, Peanuts) e artigos de divulgação científica.",
+      "profNome": "Prof. Diego Morales",
+      "profRM": "1005",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🔗 BBC Learning English - Reading Practice",
+          "url": "https://www.bbc.co.uk/learningenglish"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=F3aRjT8F5b0"
+      ]
+    },
+    {
+      "id": "aula_mat_01",
+      "ordem": 1,
+      "materia": "Matemática",
+      "titulo": "Funções Afim e Quadrática: Aplicações Práticas e Gráficos",
+      "texto": "Guia essencial de funções para o Provão Paulista:\n\n1. Função de 1º Grau (f(x) = ax + b):\n   - Taxa de variação (coeficiente angular 'a')\n   - Ponto de corte no eixo Y (coeficiente linear 'b')\n\n2. Função de 2º Grau (f(x) = ax² + bx + c):\n   - Vértice da parábola: Xv = -b/(2a), Yv = -Δ/(4a)\n   - Situações de lucro máximo, custo mínimo ou altura máxima de projéteis.\n\nPratique identificar esses parâmetros sem fazer contas desnecessárias analisando diretamente o gráfico!",
+      "profNome": "Prof. Marcos Andrade",
+      "profRM": "1001",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🔗 Calculadora Gráfica Geogebra",
+          "url": "https://www.geogebra.org/graphing"
+        },
+        {
+          "texto": "📐 Fórmulas Essenciais de Matemática",
+          "url": "https://brasilescola.uol.com.br/matematica"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=j3_gW_u6nQo"
+      ]
+    },
+    {
+      "id": "aula_mat_02",
+      "ordem": 2,
+      "materia": "Matemática",
+      "titulo": "Trigonometria no Triângulo Retângulo e Geometria Espacial",
+      "texto": "Memorize as relações fundamentais:\n- Seno = Cateto Oposto / Hipotenusa\n- Cosseno = Cateto Adjacente / Hipotenusa\n- Tangente = Cateto Oposto / Cateto Adjacente\n\nÂngulos notáveis de 30°, 45° e 60°. Em geometria espacial, foco total no cálculo de volume de prismas, cilindros e cones.",
+      "profNome": "Prof. Marcos Andrade",
+      "profRM": "1001",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [],
+      "arquivos": [],
+      "videos": []
+    },
+    {
+      "id": "aula_fis_01",
+      "ordem": 1,
+      "materia": "Física",
+      "titulo": "Cinemática e Dinâmica: As Leis de Newton no Cotidiano",
+      "texto": "Revise os pilares da mecânica clássica:\n\n- 1ª Lei (Inércia): Todo corpo permanece em seu estado de repouso ou MRU a menos que uma força resultante atue sobre ele.\n- 2ª Lei (Princípio Fundamental): F_res = m * a.\n- 3ª Lei (Ação e Reação): As forças sempre surgem aos pares, em corpos diferentes, de mesma intensidade e sentidos opostos.\n\nFique atento à aplicação em veículos com freios ABS, cinto de segurança e esteiras rolantes.",
+      "profNome": "Prof. Marcos Andrade",
+      "profRM": "1001",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🔗 Simulações Interativas PhET Interactive Simulations (Colorado)",
+          "url": "https://phet.colorado.edu/pt_BR/simulations/forces-and-motion-basics"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=8V4pYlM1q_w"
+      ]
+    },
+    {
+      "id": "aula_qui_01",
+      "ordem": 1,
+      "materia": "Química",
+      "titulo": "Estequiometria sem Segredos: Relações em Massa e Mol",
+      "texto": "O roteiro infalível para resolver qualquer questão de cálculo estequiométrico:\n\n1. Balanceie a equação química (Conservação de Massa de Lavoisier).\n2. Escreva a proporção molar informada pelos coeficientes.\n3. Transforme mol em massa (usando a massa molar da tabela) ou em volume (22,4 L na CNTP).\n4. Monte a regra de três alinhando as grandezas correspondentes.\n5. Calcule pureza de reagentes e rendimento de reação quando especificados.",
+      "profNome": "Profa. Juliana Rossi",
+      "profRM": "1004",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🔗 Tabela Periódica Interativa Online (Ptable)",
+          "url": "https://ptable.com/?lang=pt"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=F0k-q8A63m8"
+      ]
+    },
+    {
+      "id": "aula_bio_01",
+      "ordem": 1,
+      "materia": "Biologia",
+      "titulo": "Ecologia: Cadeias Alimentares, Ciclos Biogeoquímicos e Impactos",
+      "texto": "O assunto campeão de questões na VUNESP:\n\n- Pirâmides ecológicas (número, biomassa e energia — lembre-se: a de energia NUNCA se inverte!).\n- Magnificação trófica (bioacumulação de metais pesados e microplásticos ao longo do topo da cadeia).\n- Ciclo do Nitrogênio: fixação, nitrificação e desnitrificação conduzidas por bactérias especializadas no solo.\n- Relações ecológicas harmônicas vs desarmônicas.",
+      "profNome": "Profa. Juliana Rossi",
+      "profRM": "1004",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🌱 Atlas e Artigos de Biologia e Meio Ambiente",
+          "url": "https://brasilescola.uol.com.br/biologia/ecologia.htm"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=jW7m7l5q9yI"
+      ]
+    },
+    {
+      "id": "aula_his_01",
+      "ordem": 1,
+      "materia": "História",
+      "titulo": "Brasil República: Da Era Vargas à Redemocratização de 1985",
+      "texto": "Principais pontos para o Provão Paulista:\n\n- Era Vargas (1930-1945): Centralização política, leis trabalhistas (CLT), industrialização de base (CSN, Vale) e Estado Novo.\n- Período Democrático (1945-1964): JK e o plano de metas ('50 anos em 5'), inauguração de Brasília e inflação.\n- Ditadura Militar (1964-1985): Atos Institucionais (AI-5), milagre econômico e o movimento das Diretas Já.\n- A Constituição Cidadã de 1988 e os direitos sociais.",
+      "profNome": "Prof. Carlos Eduardo Silveira",
+      "profRM": "1003",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🏛️ Arquivo Histórico do Estado de SP",
+          "url": "http://www.arquivoestado.sp.gov.br/"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=8M6A9o5B1u4"
+      ]
+    },
+    {
+      "id": "aula_geo_01",
+      "ordem": 1,
+      "materia": "Geografia",
+      "titulo": "Urbanização Brasileira, Megacidades e Desafios Socioespaciais",
+      "texto": "Tópicos fundamentais de Geografia Geral e do Brasil:\n\n- Processo de urbanização acelerada no pós-1950 puxado pela industrialização do Sudeste e o êxodo rural.\n- Conceitos-chave: Metropolização, Conurbação, Megalópole Rio-SP e Gentrificação.\n- Desafios ambientais urbanos: Ilhas de calor, inversão térmica e impermeabilização do solo causando enchentes.\n- Segregação socioespacial e mobilidade urbana na Grande São Paulo.",
+      "profNome": "Prof. Diego Morales",
+      "profRM": "1005",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🗺️ IBGE Educa - Mapas e Estatísticas do Brasil",
+          "url": "https://educa.ibge.gov.br/"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=zT6_V7fJ5h4"
+      ]
+    },
+    {
+      "id": "aula_filo_01",
+      "ordem": 1,
+      "materia": "Filosofia",
+      "titulo": "Ética e Política: Da Pólis Grega aos Contratualistas Modernos",
+      "texto": "Para gabaritar as questões conceituais:\n\n- Aristóteles: O homem como 'animal político' (Zoon Politikon) e a ética do meio-termo (justa medida).\n- Maquiavel: Separação entre ética moral e eficiência política em 'O Príncipe' ('virtù' e 'fortuna').\n- Contratualistas: Thomas Hobbes (estado de natureza de guerra e Leviatã), John Locke (direitos naturais e propriedade) e Jean-Jacques Rousseau (o bom selvagem e a vontade geral).",
+      "profNome": "Prof. Carlos Eduardo Silveira",
+      "profRM": "1003",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "📖 Textos Clássicos de Filosofia Política",
+          "url": "https://plato.stanford.edu/"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=jW7m7l5q9yI"
+      ]
+    },
+    {
+      "id": "aula_soc_01",
+      "ordem": 1,
+      "materia": "Sociologia",
+      "titulo": "Os Clássicos da Sociologia: Durkheim, Marx e Max Weber",
+      "texto": "Comparativo essencial dos três pensadores fundadores:\n\n1. Émile Durkheim: O Fato Social (geral, exterior e coercitivo), solidariedade mecânica e orgânica, e anomia social.\n2. Karl Marx: Materialismo histórico dialético, luta de classes (burguesia vs proletariado), mais-valia e alienação do trabalho.\n3. Max Weber: Ação Social orientada pela conduta alheia, tipos ideais de dominação (tradicional, carismática e legal-racional) e ética protestante.",
+      "profNome": "Prof. Carlos Eduardo Silveira",
+      "profRM": "1003",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "🌐 Conceitos Sociológicos Fundamentais - Café com Sociologia",
+          "url": "https://cafecomsociologia.com/"
+        }
+      ],
+      "arquivos": [],
+      "videos": []
+    },
+    {
+      "id": "aula_red_01",
+      "ordem": 1,
+      "materia": "Redação",
+      "titulo": "A Redação Nota 1000 na VUNESP: Estrutura em 4 Parágrafos",
+      "texto": "A banca da VUNESP avalia o texto dissertativo-argumentativo em 3 critérios de rigor:\n\n1. Tema e Tipo de Texto (não tangenciar nem fugir do tema proposto);\n2. Estrutura e Coesão (uso de operadores argumentativos como 'Ademais', 'Contudo', 'Nesse sentido');\n3. Expressão e Norma Padrão da Língua.\n\nRecomendação de esqueleto estratégico:\n- D1: Introdução com contextualização histórica/filosófica + tese explícita com 2 argumentos.\n- D2: Desenvolvimento do argumento 1 com repertório legítimo.\n- D3: Desenvolvimento do argumento 2 com dados da realidade e causa/efeito.\n- Conclusão: Retomada da tese e proposta de intervenção articulada com agentes e finalidade.",
+      "profNome": "Profa. Helena Vasconcelos",
+      "profRM": "1002",
+      "profFoto": null,
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "links": [
+        {
+          "texto": "📝 Critérios Oficiais de Redação VUNESP",
+          "url": "https://www.vunesp.com.br"
+        },
+        {
+          "texto": "🖋️ Modelos de Redação com Pontuação Máxima",
+          "url": "https://guiadoestudante.abril.com.br/redacao/"
+        }
+      ],
+      "arquivos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=F0k-q8A63m8"
+      ]
+    }
+  ],
+  "simulados": [
+    {
+      "id": "simulado_prof_01",
+      "nome": "Simulado Especial VUNESP: Matemática e Raciocínio Lógico",
+      "serie": "3ª Série do EM",
+      "autor": "Prof. Marcos Andrade",
+      "profRM": "1001",
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "pontuacaoTotal": 10,
+      "questoes": [
+        {
+          "tema": "Matemática: Funções de 1º Grau",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Uma empresa de transporte por aplicativo cobra uma tarifa fixa de R$ 5,50 (bandeirada) mais R$ 2,50 por quilômetro rodado. Se um estudante pagou R$ 38,00 por uma corrida até o local da prova, quantos quilômetros ele percorreu?",
+          "opcoes": [
+            "11 km",
+            "13 km",
+            "15 km",
+            "17 km"
+          ],
+          "correta": 1,
+          "imagem": ""
+        },
+        {
+          "tema": "Matemática: Geometria Espacial",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Uma caixa d'água em formato de paralelepípedo reto-retângulo possui dimensões internas de 2 metros de comprimento, 1,5 metro de largura e 1 metro de altura. Sabendo que 1 m³ corresponde a 1.000 litros, qual é a capacidade máxima dessa caixa em litros?",
+          "opcoes": [
+            "1.500 litros",
+            "2.500 litros",
+            "3.000 litros",
+            "4.500 litros"
+          ],
+          "correta": 2,
+          "imagem": ""
+        },
+        {
+          "tema": "Matemática: Probabilidade Simples",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Em uma urna há 12 bolas azuis, 8 bolas vermelhas e 10 bolas brancas, todas de mesmo tamanho e massa. Retirando-se ao acaso uma única bola da urna, qual é a probabilidade de ela NÃO ser azul?",
+          "opcoes": [
+            "40%",
+            "50%",
+            "60%",
+            "70%"
+          ],
+          "correta": 2,
+          "imagem": ""
+        },
+        {
+          "tema": "Matemática: Análise Gráfica e Porcentagem",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Um produto que custava R$ 200,00 sofreu um aumento de 20% no mês de janeiro. Em fevereiro, para liquidar o estoque, o lojista concedeu um desconto de 20% sobre o novo preço. Qual passou a ser o valor final do produto?",
+          "opcoes": [
+            "R$ 200,00",
+            "R$ 192,00",
+            "R$ 180,00",
+            "R$ 196,00"
+          ],
+          "correta": 1,
+          "imagem": ""
+        }
+      ]
+    },
+    {
+      "id": "simulado_prof_02",
+      "nome": "Simulado de Humanidades: Interpretação de Texto, História e Cidadania",
+      "serie": "Todas as Séries",
+      "autor": "Profa. Helena Vasconcelos & Prof. Carlos Eduardo",
+      "profRM": "1002",
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "pontuacaoTotal": 10,
+      "questoes": [
+        {
+          "tema": "Português: Interpretação e Efeitos de Sentido",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Leia o trecho de Machado de Assis: 'Não tive filhos, não transmiti a nenhuma criatura o legado de nossa miséria.' A famosa frase final de 'Memórias Póstumas de Brás Cubas' sintetiza a seguinte visão de mundo do narrador:",
+          "opcoes": [
+            "Otimismo pedagógico e crença no progresso moral do ser humano.",
+            "Pessimismo e desencanto irônico em relação à existência e à sociedade burguesa.",
+            "Crítica fervorosa aos ideais científicos e à República positivista.",
+            "Sentimento nostálgico de culpa e arrependimento religioso."
+          ],
+          "correta": 1,
+          "imagem": ""
+        },
+        {
+          "tema": "História do Brasil: Era Vargas",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Durante o Estado Novo (1937-1945), o governo de Getúlio Vargas implementou uma ampla política trabalhista aliada à propaganda estatal. Qual órgão era responsável pela censura e pela construção da imagem de Vargas como o 'Pai dos Pobres'?",
+          "opcoes": [
+            "DOPS (Departamento de Ordem Política e Social)",
+            "DIP (Departamento de Imprensa e Propaganda)",
+            "IBGE (Instituto Brasileiro de Geografia e Estatística)",
+            "CLT (Consolidação das Leis do Trabalho)"
+          ],
+          "correta": 1,
+          "imagem": ""
+        },
+        {
+          "tema": "Sociologia: Conceito de Fato Social",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Segundo Émile Durkheim, para que um fenômeno seja considerado um 'Fato Social', ele deve apresentar três características fundamentais. São elas:",
+          "opcoes": [
+            "Individualidade, relatividade e flexibilidade.",
+            "Coercitividade, exterioridade e generalidade.",
+            "Racionalidade econômica, alienação e luta de classes.",
+            "Subjetividade, voluntarismo e historicidade."
+          ],
+          "correta": 1,
+          "imagem": ""
+        },
+        {
+          "tema": "Filosofia: Ética e Cidadania",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Na obra 'A República', de Platão, o célebre 'Mito da Caverna' funciona como uma metáfora epistemológica que convida o indivíduo a:",
+          "opcoes": [
+            "Aceitar as ilusões dos sentidos corporais como a única verdade plausível.",
+            "Superar o senso comum e o mundo das sombras em direção ao conhecimento racional e ao Bem.",
+            "Priorizar o poder militar e a obediência cega aos governantes da pólis.",
+            "Viver isolado da sociedade para preservar a pureza de espírito."
+          ],
+          "correta": 1,
+          "imagem": ""
+        }
+      ]
+    },
+    {
+      "id": "simulado_prof_03",
+      "nome": "Simulado de Ciências da Natureza: Física, Química e Biologia",
+      "serie": "2ª e 3ª Séries",
+      "autor": "Profa. Juliana Rossi & Prof. Marcos Andrade",
+      "profRM": "1004",
+      "dataHora": "Publicado recentemente",
+      "editado": false,
+      "pontuacaoTotal": 10,
+      "questoes": [
+        {
+          "tema": "Biologia: Ecologia e Teias Alimentares",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Em uma cadeia alimentar aquática contaminada por mercúrio despejado por garimpo ilegal, qual dos seguintes níveis tróficos apresentará a MAIOR concentração de mercúrio por quilo de biomassa (bioacumulação)?",
+          "opcoes": [
+            "Fitoplâncton (produtores)",
+            "Zooplâncton (consumidores primários)",
+            "Pequenos peixes (consumidores secundários)",
+            "Aves piscívoras e peixes predadores de topo (consumidores terciários/quaternários)"
+          ],
+          "correta": 3,
+          "imagem": ""
+        },
+        {
+          "tema": "Química: Ligações Químicas e Propriedades",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) O cloreto de sódio (NaCl), sal de cozinha comum, apresenta alto ponto de fusão e conduz corrente elétrica quando fundido ou dissolvido em água líquida. Esse comportamento é típico de substâncias com ligações predominantemente:",
+          "opcoes": [
+            "Metálicas",
+            "Covalentes apolares",
+            "Iônicas",
+            "Pontes de hidrogênio puras"
+          ],
+          "correta": 2,
+          "imagem": ""
+        },
+        {
+          "tema": "Física: Eletricidade e Potência",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) Um chuveiro elétrico opera sob uma tensão de 220 V e consome uma corrente elétrica de 25 A quando na posição 'Inverno'. Qual é a potência elétrica desenvolvida por esse chuveiro em watts?",
+          "opcoes": [
+            "2.200 W",
+            "4.400 W",
+            "5.500 W",
+            "7.500 W"
+          ],
+          "correta": 2,
+          "imagem": ""
+        },
+        {
+          "tema": "Biologia: Genética Mendeliana",
+          "pontos": 2.5,
+          "pergunta": "(Provão Paulista / VUNESP) No cruzamento entre dois indivíduos heterozigotos para um gene com dominância completa (Aa x Aa), qual é a proporção fenotípica esperada na descendência?",
+          "opcoes": [
+            "1 dominante : 1 recessivo",
+            "3 dominantes : 1 recessivo",
+            "1 dominante : 2 intermediários : 1 recessivo",
+            "100% de indivíduos recessivos"
+          ],
+          "correta": 1,
+          "imagem": ""
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "geradoEm": "2026-10-20T22:25:53.399Z",
+    "totalUsuarios": 11,
+    "totalConteudos": 13,
+    "totalSimulados": 3
+  }
+}

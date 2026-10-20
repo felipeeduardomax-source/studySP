@@ -1,4 +1,4 @@
-require('dotenv').config();
+try { require('dotenv').config(); } catch (e) {}
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -34,6 +34,27 @@ router.get('/status', (req, res) => {
         error: typeof db.getLastError === 'function' ? db.getLastError() : null,
         timestamp: new Date().toISOString()
     });
+});
+
+// Executar Seed diretamente via Endpoint (Ideal para acionar na Vercel)
+router.all('/seed', async (req, res) => {
+    try {
+        const seed = require('./seed');
+        await seed.executarSeed();
+        res.json({
+            success: true,
+            message: 'Seed executado com sucesso no banco de dados da aplicação!',
+            banco: db.getEngineName(),
+            professoresCadastrados: seed.PROFESSORES.length,
+            alunosCadastrados: seed.ALUNOS.length,
+            materiasPublicadas: seed.CONTEUDOS.length,
+            simuladosCriados: seed.SIMULADOS.length,
+            timestamp: new Date().toISOString()
+        });
+    } catch (err) {
+        console.error('Erro ao executar rota /seed:', err);
+        res.status(500).json({ success: false, error: 'Erro ao executar seed: ' + err.message });
+    }
 });
 
 // Cadastro de Usuário (Aluno ou Professor)

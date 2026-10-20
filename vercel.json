@@ -2,6 +2,14 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/seed",
+      "destination": "/api/seed.js"
+    },
+    {
+      "source": "/api/seed",
+      "destination": "/api/seed.js"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/index.js"
     }

@@ -756,25 +756,34 @@ async function executarSeed() {
         console.log(`  ✓ "${s.nome}" (${s.questoes.length} questões) por ${s.autor}`);
     }
 
-    // 4. Também gera arquivo JSON de backup / visualização local
-    const dataDir = path.join(__dirname, 'data');
-    if (!fs.existsSync(dataDir)) {
-        fs.mkdirSync(dataDir, { recursive: true });
-    }
-    const jsonFilePath = path.join(dataDir, 'studysp.json');
-    const dadosCompletos = {
-        usuarios: todosUsuarios,
-        conteudos: CONTEUDOS,
-        simulados: SIMULADOS,
-        meta: {
-            geradoEm: new Date().toISOString(),
-            totalUsuarios: todosUsuarios.length,
-            totalConteudos: CONTEUDOS.length,
-            totalSimulados: SIMULADOS.length
+    // 4. Também gera arquivo JSON de backup / visualização local (somente fora da Vercel ou em /tmp)
+    try {
+        const isVercel = !!process.env.VERCEL;
+        const os = require('os');
+        const dataDir = isVercel 
+            ? path.join(os.tmpdir(), 'studysp_data') 
+            : path.join(__dirname, 'data');
+
+        if (!fs.existsSync(dataDir)) {
+            fs.mkdirSync(dataDir, { recursive: true });
         }
-    };
-    fs.writeFileSync(jsonFilePath, JSON.stringify(dadosCompletos, null, 2), 'utf-8');
-    console.log(`💾 Backup gravado com sucesso em: ${jsonFilePath}`);
+        const jsonFilePath = path.join(dataDir, 'studysp.json');
+        const dadosCompletos = {
+            usuarios: todosUsuarios,
+            conteudos: CONTEUDOS,
+            simulados: SIMULADOS,
+            meta: {
+                geradoEm: new Date().toISOString(),
+                totalUsuarios: todosUsuarios.length,
+                totalConteudos: CONTEUDOS.length,
+                totalSimulados: SIMULADOS.length
+            }
+        };
+        fs.writeFileSync(jsonFilePath, JSON.stringify(dadosCompletos, null, 2), 'utf-8');
+        console.log(`💾 Backup gravado com sucesso em: ${jsonFilePath}`);
+    } catch (e) {
+        console.warn('Aviso: Não foi possível gravar backup JSON no disco:', e.message);
+    }
 
     console.log('\n✨ SEED CONCLUÍDO COM SUCESSO! ✨');
     console.log('---------------------------------------------------------');

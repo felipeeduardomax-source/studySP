@@ -33,8 +33,10 @@ module.exports = async (req, res) => {
         console.error('[Vercel Seed] Erro ao executar seed:', err);
         return res.status(500).json({
             success: false,
-            error: 'Falha ao executar seed no banco: ' + err.message,
-            stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
+            error: 'Falha ao executar seed no banco: ' + (err.message || String(err)),
+            detalhes: err.code || err.name || null,
+            bancoDetectado: db.getEngineName(),
+            erroConexaoBanco: typeof db.getLastError === 'function' ? db.getLastError() : null
         });
     }
 };
